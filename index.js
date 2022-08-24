@@ -98,7 +98,7 @@ function generate() {
   password2.textContent = "";
   for (let i = 0; i < 15; i++) {
     function getRandom() {
-      let randomChar1 = Math.floor(Math.random() * 62);
+      let randomChar1 = Math.floor(Math.random() * characters.length);
       let randomChar2 = Math.floor(Math.random() * characters.length);
       password1.textContent += characters[randomChar1];
       password2.textContent += characters[randomChar2];
