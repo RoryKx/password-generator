@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background: black;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
 }
 
 container {
@@ -11,27 +13,24 @@ container {
     margin: 64px auto;
 }
 h1 {
+    color: white;
+    padding-top: 115px;
+    width: 354px;
     padding-left: 52px;
     margin: 0;
     font-family: 'Karla', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 40px;
+    letter-spacing: -0.025em;
 }
-.heading1 {
-    color: white;
-    padding-top: 115px;
-}
-.heading2 {
+span {
     color: #4ADF86;
 }
 h3 {
     padding-left: 52px;
     margin-top: 10px;
     color: #D5D4D8;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -44,8 +43,6 @@ button {
     border-radius: 6px;
     margin-left: 52px;
     margin-top: 51px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -73,8 +70,6 @@ p {
     margin-right: 24px;
     text-align: center;
     padding-top: 3px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
